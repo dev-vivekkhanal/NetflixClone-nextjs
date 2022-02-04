@@ -84,6 +84,7 @@ function Footer() {
         <a
           href="http://vivekkhanal.com"
           target="_blank"
+          rel="noreferrer"
           className="text-[#46d369] ml-2"
         >
           Vivek Khanal
