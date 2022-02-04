@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,25 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.bg-custom-transparent {
+  background: linear-gradient(to bottom, #111 10%, transparent 100%);
+}
+
+.featured--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 50%);
+}
+
+.featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 10%, transparent 90%);
+}
+
+.row-item-wrapper:hover .left-arrow,
+.row-item-wrapper:hover .right-arrow {
+  opacity: 1;
 }
